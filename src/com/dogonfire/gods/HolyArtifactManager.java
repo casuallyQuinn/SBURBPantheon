@@ -151,123 +151,130 @@ public class HolyArtifactManager
 		}
 		switch (godType)
 		{
-			case EVIL:
+			case BREATH:
 				switch (itemType)
 				{
-					case CHAINMAIL_BOOTS:
-						itemName = "Love rose of " + godName;
+					case ELYTRA:
+						itemName = “Hood of " + godName;
 						break;
-					case LEATHER_BOOTS:
-						itemName = "Jewel of " + godName;
+					case CAKE:
+						itemName = “Confectionary of " + godName;
 						break;
-					case SHEARS:
-						itemName = "Friendship cookie of " + godName;
+					case IRON_AXE:
+						itemName = “Warhammer of " + godName;
 				}
 				break;
-			case SEA:
+			case BLOOD:
 				switch (itemType)
 				{
-					case STAINED_CLAY:
-						itemName = "Vodka of " + godName;
+					case IRON_SWORD:
+						itemName = “Sickle of " + godName;
 						break;
-					case MELON_STEM:
-						itemName = "Partystick of " + godName;
+					case RED_FLOWER:
+						itemName = “Essence of " + godName;
 						break;
-					case SANDSTONE_STAIRS:
-						itemName = "Partycake of " + godName;
+					case IRON_CHESTPLATE:
+						itemName = “Tunic of " + godName;
 				}
 				break;
-			case WISDOM:
+			case LIGHT:
 				switch (itemType)
 				{
-					case NETHER_FENCE:
-						itemName = "Earthdigger of " + godName;
+					case TORCH:
+						itemName = “Wand of " + godName;
 						break;
-					case BAKED_POTATO:
-						itemName = "Seed of " + godName;
+					case BOOK:
+						itemName = “Tome of " + godName;
 						break;
-					case NETHER_STALK:
-						itemName = "Seed of " + godName;
+					case WRITABLE_BOOK:
+						itemName = “Journal of " + godName;
 						break;
-					case SLIME_BALL:
-						itemName = "Melon seeds of " + godName;
-						break;
-					case SKULL_ITEM:
-						itemName = "Pumpkin seeds of " + godName;
+					case NETHER_STAR:
+						itemName = “Eye of " + godName;
 				}
 				break;
-			case WEREWOLVES:
+			case VOID:
 				switch (itemType)
 				{
-					case REDSTONE_COMPARATOR_OFF:
-						itemName = "Knowledge tome of " + godName;
+					case BOW:
+						itemName = “Bow of " + godName;
 						break;
-					case GLASS:
-						itemName = "Enchantment table of " + godName;
+					case ARROW:
+						itemName = “Arrow of " + godName;
 						break;
-					case WALL_SIGN:
-						itemName = "Enchantment book of " + godName;
+					case FISH:
+						itemName = “Lure of " + godName;
 				}
 				break;
-			case MOON:
+			case TIME:
 				switch (itemType)
 				{
-					case RAW_CHICKEN:
-						itemName = "Moonbucket of " + godName;
+					case JUKEBOX:
+						itemName = “Timekeeper of " + godName;
 				}
 				break;
-			case NATURE:
+			case SPACE:
 				switch (itemType)
 				{
-					case RAW_CHICKEN:
-						itemName = "Sunbucket of " + godName;
+					case MAP:
+						itemName = “Scroll of " + godName;
 				}
 				break;
-			case PARTY:
+			case HEART:
 				switch (itemType)
 				{
-					case MOSSY_COBBLESTONE:
-						itemName = "Thunderaxe of " + godName;
+					case ENDER_PEARL:
+						itemName = “Soul of " + godName;
 						break;
-					case MELON_STEM:
-						itemName = "Thunderwand of " + godName;
+					case IRON_SWORD:
+						itemName = “Blade of " + godName;
 				}
 				break;
-			case WAR:
+			case MIND:
 				switch (itemType)
 				{
-					case SIGN_POST:
-						itemName = "Shears of " + godName;
+					case IRON_SWORD:
+						itemName = “Rapier of " + godName;
 						break;
-					case WOOD_AXE:
-						itemName = "Leash of " + godName;
+					case REDSTONE:
+						itemName = “Chalk of " + godName;
 				}
 				break;
-			case SUN:
+			case HOPE:
 				switch (itemType)
 				{
-					case MOB_SPAWNER:
-						itemName = "Warsword of " + godName;
+					case PUMPKIN:
+						itemName = “Anomaly of " + godName;
 						break;
-					case MOSSY_COBBLESTONE:
-						itemName = "Waraxe of " + godName;
+					case EMERALD:
+						itemName = “Power of " + godName;
 				}
 				break;
-			case FROST:
+			case RAGE:
 				switch (itemType)
 				{
-					case MOB_SPAWNER:
-						itemName = "Bloodsword of " + godName;
+					case WHITE_FLOWER:
+						itemName = “War Paint of " + godName;
 						break;
-					case MOSSY_COBBLESTONE:
-						itemName = "Bloodaxe of " + godName;
+					case DIAMOND_SWORD:
+						itemName = “Harbinger of " + godName;
+						break;
+					case INK_SACK:
+						itemName = “War Paint of " + godName;
 				}
 				break;
-			case CREATURES:
+			case LIFE:
 				switch (itemType)
 				{
-					case MELON_STEM:
-						itemName = "Frostwand of " + godName;
+					case BONE_MEAL:
+						itemName = “Marrow of " + godName;
+				}
+				break;
+			case DOOM:
+				switch (itemType)
+				{
+					case FLOWER_POT:
+						itemName = “Prison of " + godName;
 				}
 				break;
 		}

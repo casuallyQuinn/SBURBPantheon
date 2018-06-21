@@ -57,19 +57,18 @@ public class GodManager
 
 	public static enum GodType
 	{
-		FROST,
-		LOVE,
-		EVIL,
-		SEA,
-		MOON,
-		SUN,
-		THUNDER,
-		PARTY,
-		WAR,
-		WEREWOLVES,
-		CREATURES,
-		WISDOM,
-		NATURE;
+		BREATH,
+		BLOOD,
+		LIGHT,
+		VOID,
+		TIME,
+		SPACE,
+		HEART,
+		MIND,
+		HOPE,
+		RAGE,
+		LIFE,
+		DOOM;
 	}
 
 	static enum GodGender
@@ -312,41 +311,41 @@ public class GodManager
 		}
 		switch (godType)
 		{
-			case THUNDER:
-				color = ChatColor.DARK_GRAY;
+			case BREATH:
+				color = ChatColor.AQUA;
 				break;
-			case EVIL:
-				color = ChatColor.RED;
-				break;
-			case WISDOM:
-				color = ChatColor.DARK_GREEN;
-				break;
-			case FROST:
-				color = ChatColor.BLACK;
-				break;
-			case SUN:
+			case BLOOD:
 				color = ChatColor.DARK_RED;
 				break;
-			case SEA:
-				color = ChatColor.BOLD;
+			case LIGHT:
+				color = ChatColor.GOLD;
 				break;
-			case LOVE:
-				color = ChatColor.BLUE;
-				break;
-			case MOON:
-				color = ChatColor.GRAY;
-				break;
-			case WAR:
-				color = ChatColor.GREEN;
-				break;
-			case NATURE:
-				color = ChatColor.YELLOW;
-				break;
-			case CREATURES:
+			case VOID:
 				color = ChatColor.DARK_BLUE;
 				break;
-			case WEREWOLVES:
-				color = ChatColor.GRAY;
+			case TIME:
+				color = ChatColor.RED;
+				break;
+			case SPACE:
+				color = ChatColor.BLACK;
+				break;
+			case HEART:
+				color = LIGHT_PURPLE;
+				break;
+			case MIND:
+				color = ChatColor.BLUE;
+				break;
+			case HOPE:
+				color = ChatColor.YELLOW;
+				break;
+			case RAGE:
+				color = ChatColor.DARK_PURPLE;
+				break;
+			case LIFE:
+				color = ChatColor.GREEN;
+				break;
+			case DOOM:
+				color = ChatColor.DARK_GRAY;
 		}
 		return color;
 	}

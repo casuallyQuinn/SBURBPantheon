@@ -37,74 +37,74 @@ public class AltarManager
 
 		{
 			ArrayList<GodManager.GodType> list = new ArrayList<GodType>();
-			list.add(GodManager.GodType.MOON);
-			this.altarBlockTypes.put(Material.ENDER_STONE, list);
-		}
-
-		{
-			ArrayList<GodManager.GodType> list = new ArrayList();
-			list.add(GodManager.GodType.EVIL);
-			this.altarBlockTypes.put(Material.OBSIDIAN, list);
-		}
-
-		{
-			ArrayList<GodManager.GodType> list = new ArrayList();
-			list.add(GodManager.GodType.FROST);
-			this.altarBlockTypes.put(Material.SNOW_BLOCK, list);
-		}
-
-		{
-			ArrayList<GodManager.GodType> list = new ArrayList();
-			list.add(GodManager.GodType.CREATURES);
-			this.altarBlockTypes.put(Material.LOG, list);
-		}
-
-		{
-			ArrayList<GodManager.GodType> list = new ArrayList();
-			list.add(GodManager.GodType.NATURE);
-			this.altarBlockTypes.put(Material.MELON_BLOCK, list);
-		}
-
-		{
-			ArrayList<GodManager.GodType> list = new ArrayList();
-			list.add(GodManager.GodType.WISDOM);
-			this.altarBlockTypes.put(Material.BOOKSHELF, list);
-		}
-
-		{
-			ArrayList<GodManager.GodType> list = new ArrayList();
-			list.add(GodManager.GodType.LOVE);
+			list.add(GodManager.GodType.BREATH);
 			this.altarBlockTypes.put(Material.DIAMOND_BLOCK, list);
 		}
 
 		{
 			ArrayList<GodManager.GodType> list = new ArrayList();
-			list.add(GodManager.GodType.THUNDER);
-			this.altarBlockTypes.put(Material.QUARTZ_BLOCK, list);
+			list.add(GodManager.GodType.BLOOD);
+			this.altarBlockTypes.put(Material.NETHER_WART_BLOCK, list);
 		}
 
 		{
 			ArrayList<GodManager.GodType> list = new ArrayList();
-			list.add(GodManager.GodType.SUN);
-			this.altarBlockTypes.put(Material.SANDSTONE, list);
+			list.add(GodManager.GodType.LIGHT);
+			this.altarBlockTypes.put(Material.GOLD_BLOCK, list);
 		}
 
 		{
 			ArrayList<GodManager.GodType> list = new ArrayList();
-			list.add(GodManager.GodType.PARTY);
+			list.add(GodManager.GodType.VOID);
+			this.altarBlockTypes.put(Material.OBSIDIAN, list);
+		}
+
+		{
+			ArrayList<GodManager.GodType> list = new ArrayList();
+			list.add(GodManager.GodType.TIME);
+			this.altarBlockTypes.put(Material.REDSTONE_BLOCK, list);
+		}
+
+		{
+			ArrayList<GodManager.GodType> list = new ArrayList();
+			list.add(GodManager.GodType.SPACE);
+			this.altarBlockTypes.put(Material.COAL_BLOCK, list);
+		}
+
+		{
+			ArrayList<GodManager.GodType> list = new ArrayList();
+			list.add(GodManager.GodType.HEART);
+			this.altarBlockTypes.put(Material.STAINED_HARDENED_CLAY:6, list);
+		}
+
+		{
+			ArrayList<GodManager.GodType> list = new ArrayList();
+			list.add(GodManager.GodType.MIND);
+			this.altarBlockTypes.put(Material.PRISMARINE, list);
+		}
+
+		{
+			ArrayList<GodManager.GodType> list = new ArrayList();
+			list.add(GodManager.GodType.HOPE);
+			this.altarBlockTypes.put(Material.GLOWSTONE, list);
+		}
+
+		{
+			ArrayList<GodManager.GodType> list = new ArrayList();
+			list.add(GodManager.GodType.RAGE);
+			this.altarBlockTypes.put(Material.PURPUR_BLOCK, list);
+		}
+
+		{
+			ArrayList<GodManager.GodType> list = new ArrayList();
+			list.add(GodManager.GodType.LIFE);
 			this.altarBlockTypes.put(Material.EMERALD_BLOCK, list);
 		}
 
 		{
 			ArrayList<GodManager.GodType> list = new ArrayList();
-			list.add(GodManager.GodType.WAR);
-			this.altarBlockTypes.put(Material.NETHERRACK, list);
-		}
-
-		{
-			ArrayList<GodManager.GodType> list = new ArrayList();
-			list.add(GodManager.GodType.SEA);
-			this.altarBlockTypes.put(Material.LAPIS_BLOCK, list);
+			list.add(GodManager.GodType.DOOM);
+			this.altarBlockTypes.put(Material.SOUL_SAND, list);
 		}
 
 		if (this.plugin.werewolfEnabled)
